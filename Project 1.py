@@ -4,9 +4,11 @@ import ssl
 from urllib.request import urlopen, Request
 
 def main():
-    #Read live data from a file
-    pass
+    # Get weather alerts for a specific state
+    title = input("Enter the title of the article: ")
+    url = "https://www.mediawiki.org/w/api.php" + title
 
+main()
 
 #NOTE: Client wishes to study behavior of wikipedia editors.
     #Must be able to type Wiki article title in command line
